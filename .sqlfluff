@@ -1,0 +1,48 @@
+[sqlfluff:rules]
+tab_space_size = 2
+
+[sqlfluff:rules:L001]
+
+[sqlfluff:rules:L002]
+
+[sqlfluff:rules:L003]
+tab_space_size = 2
+
+[sqlfluff:rules:L006]
+
+[sqlfluff:rules:L010]
+capitalisation_policy = lower
+
+[sqlfluff:rules:L011]
+aliasing = explicit
+
+[sqlfluff:rules:L012]
+aliasing = explicit
+
+[sqlfluff:rules:L013]
+
+[sqlfluff:rules:L016]
+ignore_comment_lines = True
+indent_unit = space
+max_line_length = 80
+tab_space_size = 2
+
+[sqlfluff:rules:L017]
+
+[sqlfluff:rules:L019]
+comma_style = leading
+
+[sqlfluff:rules:L022]
+
+[sqlfluff:rules:L023]
+
+[sqlfluff:rules:L027]
+
+[sqlfluff:rules:L044]
+
+[sqlfluff:rules:L049]
+
+[sqlfluff:rules:L050]
+
+[sqlfluff:rules:L064]
+preferred_quoted_literal_style = 'double_quotes'
