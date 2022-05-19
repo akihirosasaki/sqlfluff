@@ -1,3 +1,10 @@
+[sqlfluff]
+dialect = bigquery
+exclude_rules = L009
+
+[sqlfluff:indentation]
+indented_using_on = True
+
 [sqlfluff:rules]
 tab_space_size = 2
 
@@ -24,25 +31,51 @@ aliasing = explicit
 [sqlfluff:rules:L016]
 ignore_comment_lines = True
 indent_unit = space
-max_line_length = 80
+max_line_length = 120
 tab_space_size = 2
 
 [sqlfluff:rules:L017]
+
+[sqlfluff:rules:L018]
+tab_space_size = 0
 
 [sqlfluff:rules:L019]
 comma_style = leading
 
 [sqlfluff:rules:L022]
+comma_style = leading
 
 [sqlfluff:rules:L023]
 
 [sqlfluff:rules:L027]
 
+[sqlfluff:rules:L030]
+extended_capitalisation_policy = lower
+
+[sqlfluff:rules:L033]
+
+[sqlfluff:rules:L036]
+
+[sqlfluff:rules:L039]
+
+[sqlfluff:rules:L040]
+capitalisation_policy = lower
+
 [sqlfluff:rules:L044]
+
+[sqlfluff:rules:L048]
 
 [sqlfluff:rules:L049]
 
 [sqlfluff:rules:L050]
 
+[sqlfluff:rules:L051]
+fully_qualify_join_types = inner
+
+[sqlfluff:rules:L054]
+group_by_and_order_by_style = explicit
+
+[sqlfluff:rules:L055]
+
 [sqlfluff:rules:L064]
-preferred_quoted_literal_style = 'double_quotes'
+preferred_quoted_literal_style = double_quotes
