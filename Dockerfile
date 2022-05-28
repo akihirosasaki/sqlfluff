@@ -14,4 +14,9 @@ RUN apt-get install -y vim less
 RUN pip install --upgrade pip
 RUN pip install --upgrade setuptools
 
+RUN pip install --upgrade google-api-python-client
 RUN pip install google
+RUN pip install google-cloud
+RUN pip install google-cloud-vision
+RUN pip install google.cloud.bigquery
+RUN pip install google.cloud.storage

@@ -25,7 +25,7 @@ select
   user_id
   , product_name
   , price
-  , purchas
+  , purchase_dat
   , "test" as testcode
 from
   table1

@@ -8,3 +8,9 @@ services:
     tty: true
     volumes:
       - ./src:/root/src
+    secrets:
+      - gcp_secret
+secrets:
+  gcp_secret:
+    file:
+      ../secrets/gcp_secret_key_terraform.json
